@@ -11,6 +11,8 @@ single byte, reading this register gives the values of the individual pins. Anot
 
 Consider the GPIO pins are numbered 0 to 7 which corresponds to bits 0 to 7, I find that helps to visualise what's going on.
 
+<img width="615" alt="image" src="https://user-images.githubusercontent.com/5994927/173930582-9e7e9887-84f9-49b9-af75-9bae01acd383.png">
+
 ## Usage
 Clone the class and copy it into your application.
 
