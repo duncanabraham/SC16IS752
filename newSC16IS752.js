@@ -1,6 +1,6 @@
 const i2cDevice = require('./i2cDevice')
 
-class SC16IS752 {
+class SC16IS752 extends i2cDevice {
   constructor(options = { i2cAddress: 0x48 }) {
     super(options)
     this.ioDir = 0x0A
