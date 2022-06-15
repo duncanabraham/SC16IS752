@@ -1,0 +1,28 @@
+{
+  "name": "sc16is752",
+  "version": "1.0.0",
+  "description": "The sb-components serial expansion Hat comes with some documentation showing how to add the 2 new UART devices to your Raspberry Pi, however there's nothing to cover how to access the 8 GPIO pins available on this Hat.",
+  "main": "SC16IS752.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncanabraham/SC16IS752.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncanabraham/SC16IS752/issues"
+  },
+  "homepage": "https://github.com/duncanabraham/SC16IS752#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "mock-require": "^3.0.3"
+  },
+  "dependencies": {
+    "i2c-bus": "^5.2.2"
+  }
+}

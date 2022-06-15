@@ -25,8 +25,8 @@ describe('the SC16IS752 class', () => {
   let extendedGpio
   beforeEach(() => {
     mock('i2c-bus', mockI2cBus)
-    delete require.cache[path.join(__dirname, '../lib/SC16IS752.js')]
-    SC16IS752 = require('../lib/SC16IS752')
+    delete require.cache[path.join(__dirname, '../SC16IS752.js')]
+    SC16IS752 = require('../SC16IS752')
     calls = {}
     extendedGpio = new SC16IS752()
   })
